@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbucks</title>
+    <title>Starbucks Coffee Company</title>
     <link rel="stylesheet" href="landing_page.css">
 </head>
 <body>
     <section>
         <div class="circle"></div>
         <header>
-            <a href="#" class="logo"><img src="assets/logo.png" alt="logo"></a>
+            <img class="logo" src="assets/logo.png" alt="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">What's New</a></li>
-                <li><a href="#">Contact</a></li>                
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Gift</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Pay</a></li>
+                <li><a href="#">Store</a></li>                
             </ul>
+            
         </header>
         <div class="content">
             <div class="textBox">
                 <h2>It's not just Coffee <br> It's  <span>Starbucks</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quia sunt animi, autem qui deleniti, perspiciatis amet ratione consequatur ullam distinctio officiis? Id harum ipsam enim aliquam sequi inventore dignissimos.</p>
+                <p>Did you know? The Dutch were the first to transport and cultivate coffee commercially…all because they smuggled a coffee plant out of the unyielding Arab port in 1690! With this single act of rebellion, they grew coffee in large amounts and helped cement a trading center in Amsterdam. They soon became known among the European royals for their coffee gifts. </p>
                 <a href="#">Learn More</a>
             </div>
             <div class="imgBox">
@@ -39,6 +41,35 @@
             <li><a href="#"><img src="assets/instagram.png" alt="insta"></a></li>
         </ul>
     </section>
+    <div class="customize">
+        <h1>Handicrafted Curations</h1>
+        <ul class="items">
+          <li>
+            <img src="assets/Bestseller.jpg" alt="Item 1">
+            <p>Bestseller</p>
+          </li>
+          <li>
+            <img src="assets/Drinks.jpg" alt="Item 2">
+            <p>Drinks</p>
+          </li>
+          <li>
+            <img src="assets/Food.jpg" alt="Item 3">
+            <p>Food</p>
+          </li>
+          <li>
+            <img src="assets/Merchandise.jpg" alt="Item 4">
+            <p>Merchandise</p>
+          </li>
+          <li>
+            <img src="assets/CoffeeAtHome.jpg" alt="Item 5">
+            <p>Coffee At Home</p>
+          </li>
+          <li>
+            <img src="assets/ReadyToEat.jpg" alt="Item 6">
+            <p>Ready to Eat</p>
+          </li>
+        </ul>
+      </div>
     <script type="text/javascript">
         function imgSlider(anything){
             document.querySelector('.starbucks').src = anything;
@@ -49,5 +80,44 @@
             circle.style.background = color; 
         }
     </script>
+    <footer>
+        <div class="container">
+          <img src="assets/logo.png" alt="Company Logo" class="logo">
+      
+          <div class="column">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#"> Our Heritage </a></li>
+                <li><a href="#">Coffeehouse</a></li>
+                <li><a href="#">Our Company</a></li>
+              </ul>
+          </div>
+          <div class="column">
+            <h3>Responsibility</h3>
+            <ul>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Ethical Sourcing</a></li>
+                <li><a href="#">Environmental Stewardship</a></li>
+                <li><a href="#">Diversity</a></li>
+              </ul>
+          </div>
+          <div class="column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Starbucks Rewards Day Offer</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Season's Gifting</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Offer for Beverage Subscription at Starbucks</a></li>
+            </ul>
+          </div>
+      
+          <p class="copyright">&copy; 2024 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+      </footer>
+      
 </body>
 </html>
